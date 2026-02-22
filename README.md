@@ -24,11 +24,15 @@ Designed for Windows using `pyaudiowpatch` for WASAPI loopback support, it serve
 - **Modern UI:** Clean, dark aesthetic with custom styled widgets and smooth animations.
 
 ## 📸 Screenshots
-|Record Section|Trim Section|Trim Section (Active)|
-|:---:|:---:|:---:|
-|<img width="100%" height="100%" alt="1" src="https://github.com/user-attachments/assets/8804d1fa-80be-4d58-829b-a9febd296fee" />|<img width="100%" height="100%" alt="2" src="https://github.com/user-attachments/assets/46342b93-81e4-4bc5-ae42-c44c0f33a05d" />|<img width="100%" height="100%" alt="3" src="https://github.com/user-attachments/assets/e567c2c2-5471-43bb-8c74-c444c0cc7bc6" />|
+|Record Section|Trim Section|
+|:---:|:---:|
+|<img width="100%" height="100%" alt="1" src="https://github.com/user-attachments/assets/8804d1fa-80be-4d58-829b-a9febd296fee" />|<img width="100%" height="100%" alt="2" src="https://github.com/user-attachments/assets/46342b93-81e4-4bc5-ae42-c44c0f33a05d" />|
 
+|Trim Section (Active)|
+|:---:|
+|<img width="100%" height="100%" alt="3" src="https://github.com/user-attachments/assets/e567c2c2-5471-43bb-8c74-c444c0cc7bc6" />|
 
+---
 
 ## 🛠️ Requirements
 
