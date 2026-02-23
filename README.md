@@ -4,7 +4,7 @@ Handy tool to record system audio and Trim it too. Useful when doing voice cloni
 
 # 🌊 WAVE — Minimal System Audio Recorder & Trimmer
 
-**WAVE** is a sleek, minimalist desktop application built with Python and PyQt6. It allows you to record system audio (what you hear) or microphone input, visualize the waveform in real-time, and perform basic trimming operations—all within a modern, dark-themed interface.
+**WAVEFORM STUDIO** is a sleek, minimalist desktop application built with Python and PyQt6. It allows you to record system audio (what you hear) or microphone input, visualize the waveform in real-time, and perform basic trimming operations—all within a modern, dark-themed interface.
 
 Designed for Windows using `pyaudiowpatch` for WASAPI loopback support, it serves as a lightweight tool for quickly capturing audio snippets without the bloat of professional DAWs.
 
@@ -29,11 +29,16 @@ Designed for Windows using `pyaudiowpatch` for WASAPI loopback support, it serve
 ## 📸 Screenshots
 |Record Section|Trim Section|
 |:---:|:---:|
-|<img width="100%" height="100%" alt="1" src="https://github.com/user-attachments/assets/8804d1fa-80be-4d58-829b-a9febd296fee" />|<img width="100%" height="100%" alt="2" src="https://github.com/user-attachments/assets/46342b93-81e4-4bc5-ae42-c44c0f33a05d" />|
+|<img width="100%" height="100%" alt="1" src="https://github.com/user-attachments/assets/ba365d2a-c77b-48b6-be8d-3722faf83087" />|<img width="100%" height="100%" alt="2" src="https://github.com/user-attachments/assets/eedc0a14-7878-45c8-99d8-003d9c1bce81" />|
+
+|Naming Syntax Settings|
+|:---:|
+|<img width="100%" height="100%" alt="3" src="https://github.com/user-attachments/assets/51563a5a-d4cf-4da6-bcd6-dd87bf8787ce" />|
 
 |Trim Section (Active)|
 |:---:|
-|<img width="100%" height="100%" alt="3" src="https://github.com/user-attachments/assets/e567c2c2-5471-43bb-8c74-c444c0cc7bc6" />|
+|<img width="100%" height="100%" alt="4" src="https://github.com/user-attachments/assets/fa390e9d-e515-4dc4-a2f8-537f16a0ea77" />|
+
 
 ---
 
