@@ -2,9 +2,9 @@
 Handy tool to record system audio and Trim it too. Useful when doing voice cloning 🪢 and don't know from where to download audio samples. Just play a youtube video and record system audio that's it.
 
 
-# 🌊 WAVEFORM STUDIO — Minimal System Audio Recorder & Trimmer
+# 🌊 WAVE — Minimal System Audio Recorder & Trimmer
 
-**WAVEFORM STUDIO** is a sleek, minimalist desktop application built with Python and PyQt6. It allows you to record system audio (what you hear) or microphone input, visualize the waveform in real-time, and perform basic trimming operations—all within a modern, dark-themed interface.
+**WAVE** is a sleek, minimalist desktop application built with Python and PyQt6. It allows you to record system audio (what you hear) or microphone input, visualize the waveform in real-time, and perform basic trimming operations—all within a modern, dark-themed interface.
 
 Designed for Windows using `pyaudiowpatch` for WASAPI loopback support, it serves as a lightweight tool for quickly capturing audio snippets without the bloat of professional DAWs.
 
@@ -13,9 +13,6 @@ Designed for Windows using `pyaudiowpatch` for WASAPI loopback support, it serve
 - **System Audio Capture:** Record "What You Hear" (Loopback) directly from your speakers on Windows.
 - **Microphone Support:** Switch easily between loopback devices and standard input devices.
 - **Real-time Waveform:** Live visual feedback while recording.
-- **Configurable Settings:**
-  - **Custom Save Directory:** Choose where your recordings are saved.
-  - **File Naming Syntax:** Customize filenames with Prefix, Date/Time formatting (using `strftime`), and Suffix.
 - **Audio Trimming:** 
   - Load `.wav`, `.flac`, `.ogg`, and `.mp3` files.
   - Visual selection of start/end points.
@@ -29,16 +26,11 @@ Designed for Windows using `pyaudiowpatch` for WASAPI loopback support, it serve
 ## 📸 Screenshots
 |Record Section|Trim Section|
 |:---:|:---:|
-|<img width="100%" height="100%" alt="1" src="https://github.com/user-attachments/assets/ba365d2a-c77b-48b6-be8d-3722faf83087" />|<img width="100%" height="100%" alt="2" src="https://github.com/user-attachments/assets/eedc0a14-7878-45c8-99d8-003d9c1bce81" />|
-
-|Naming Syntax Settings|
-|:---:|
-|<img width="100%" height="100%" alt="3" src="https://github.com/user-attachments/assets/51563a5a-d4cf-4da6-bcd6-dd87bf8787ce" />|
+|<img width="100%" height="100%" alt="1" src="https://github.com/user-attachments/assets/8804d1fa-80be-4d58-829b-a9febd296fee" />|<img width="100%" height="100%" alt="2" src="https://github.com/user-attachments/assets/46342b93-81e4-4bc5-ae42-c44c0f33a05d" />|
 
 |Trim Section (Active)|
 |:---:|
-|<img width="100%" height="100%" alt="4" src="https://github.com/user-attachments/assets/fa390e9d-e515-4dc4-a2f8-537f16a0ea77" />|
-
+|<img width="100%" height="100%" alt="3" src="https://github.com/user-attachments/assets/e567c2c2-5471-43bb-8c74-c444c0cc7bc6" />|
 
 ---
 
@@ -64,17 +56,11 @@ Designed for Windows using `pyaudiowpatch` for WASAPI loopback support, it serve
 
 3. **Run the application:**
    ```bash
-   python wave_2.py
+   python wave.py
    ```
-   *(Assuming you saved the script as `wave_2.py`)*
+   *(Assuming you saved the script as `wave.py`)*
 
 ## 📖 Usage
-
-### Configuration (Settings)
-Before recording, click the **⚙️ Settings** button in the top-right corner of the Record tab to configure:
-- **Save Directory:** Select the default folder where recordings are stored.
-- **File Naming:** Set a prefix (e.g., "recording"), date format (e.g., `%Y-%m-%d`), and suffix.
-- A live preview of the filename is shown at the bottom of the dialog.
 
 ### Recording
 1. Select your **Capture Device** from the dropdown.
@@ -82,7 +68,7 @@ Before recording, click the **⚙️ Settings** button in the top-right corner o
    - 🔊 Indicates loopback (speaker) devices.
 2. Toggle **Normalize** for automatic leveling or adjust **Manual Gain**.
 3. Press **⏺ Record** to start capturing. The waveform will update in real-time.
-4. Press **⏹ Stop** to save the file. The file will be named according to your **Settings** configuration.
+4. Press **⏹ Stop** to save the file. Recordings are saved as `.wav` in the current working directory.
 
 ### Trimming
 1. Switch to the **Trim** tab.
@@ -93,7 +79,7 @@ Before recording, click the **⚙️ Settings** button in the top-right corner o
 
 ### Future Changes 
 - [ ] Renaming functionality (to rename a file in gui)
-- [x] Option to change file name saving pattern (eg. filename_1.wav, filename_2.wav, ...)
+- [ ] Option to change file name saving pattern (eg. filename_1.wav, filename_2.wav, ...)
 - [ ] Support for saving files in various extensions (.wav, mp3, .wma, etc.)
 
 ---
