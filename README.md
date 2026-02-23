@@ -38,7 +38,7 @@ Designed for Windows using `pyaudiowpatch` for WASAPI loopback support, it serve
 |Trim Section (Active)|
 |:---:|
 |<img width="100%" height="100%" alt="4" src="https://github.com/user-attachments/assets/1c1b3905-32ee-41ab-a734-030fd3da92d8" />|
-|<img width="100%" height="100%" alt="4" src="https://github.com/user-attachments/assets/66cf6d75-0530-4e5b-a979-da4b37a29601" />|
+
 
 
 ---
