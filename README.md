@@ -13,6 +13,9 @@ Designed for Windows using `pyaudiowpatch` for WASAPI loopback support, it serve
 - **System Audio Capture:** Record "What You Hear" (Loopback) directly from your speakers on Windows.
 - **Microphone Support:** Switch easily between loopback devices and standard input devices.
 - **Real-time Waveform:** Live visual feedback while recording.
+- **Configurable Settings:**
+  - **Custom Save Directory:** Choose where your recordings are saved.
+  - **File Naming Syntax:** Customize filenames with Prefix, Date/Time formatting (using `strftime`), and Suffix.
 - **Audio Trimming:** 
   - Load `.wav`, `.flac`, `.ogg`, and `.mp3` files.
   - Visual selection of start/end points.
@@ -56,11 +59,17 @@ Designed for Windows using `pyaudiowpatch` for WASAPI loopback support, it serve
 
 3. **Run the application:**
    ```bash
-   python wave.py
+   python wave_2.py
    ```
-   *(Assuming you saved the script as `wave.py`)*
+   *(Assuming you saved the script as `wave_2.py`)*
 
 ## 📖 Usage
+
+### Configuration (Settings)
+Before recording, click the **⚙️ Settings** button in the top-right corner of the Record tab to configure:
+- **Save Directory:** Select the default folder where recordings are stored.
+- **File Naming:** Set a prefix (e.g., "recording"), date format (e.g., `%Y-%m-%d`), and suffix.
+- A live preview of the filename is shown at the bottom of the dialog.
 
 ### Recording
 1. Select your **Capture Device** from the dropdown.
@@ -68,7 +77,7 @@ Designed for Windows using `pyaudiowpatch` for WASAPI loopback support, it serve
    - 🔊 Indicates loopback (speaker) devices.
 2. Toggle **Normalize** for automatic leveling or adjust **Manual Gain**.
 3. Press **⏺ Record** to start capturing. The waveform will update in real-time.
-4. Press **⏹ Stop** to save the file. Recordings are saved as `.wav` in the current working directory.
+4. Press **⏹ Stop** to save the file. The file will be named according to your **Settings** configuration.
 
 ### Trimming
 1. Switch to the **Trim** tab.
@@ -79,7 +88,7 @@ Designed for Windows using `pyaudiowpatch` for WASAPI loopback support, it serve
 
 ### Future Changes 
 - [ ] Renaming functionality (to rename a file in gui)
-- [ ] Option to change file name saving pattern (eg. filename_1.wav, filename_2.wav, ...)
+- [x] Option to change file name saving pattern (eg. filename_1.wav, filename_2.wav, ...)
 - [ ] Support for saving files in various extensions (.wav, mp3, .wma, etc.)
 
 ---
