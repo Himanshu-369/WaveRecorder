@@ -2,7 +2,7 @@
 Handy tool to record system audio and Trim it too. Useful when doing voice cloning 🪢 and don't know from where to download audio samples. Just play a youtube video and record system audio that's it.
 
 
-# 🌊 WAVEFORM STUDIO — Minimal System Audio Recorder & Trimmer
+# 🌊 Waveform Studio — Minimal System Audio Recorder & Trimmer
 
 **WAVEFORM STUDIO** is a sleek, minimalist desktop application built with Python and PyQt6. It allows you to record system audio (what you hear) or microphone input, visualize the waveform in real-time, and perform basic trimming operations—all within a modern, dark-themed interface.
 
